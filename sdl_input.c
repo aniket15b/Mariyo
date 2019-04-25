@@ -244,7 +244,7 @@ int main(void)
 
         end = clock();
         tot_time = ((double)(end-start))/CLOCKS_PER_SEC;
-        
+        printf("%f\n", tot_time);
         SDL_Delay(1000/60 - tot_time);
     }
     
